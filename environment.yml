@@ -1,0 +1,43 @@
+name: dcanet-env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - blas=1.0=mkl
+  - ca-certificates=2025.10.5=hbd8a1cb_0
+  - certifi=2024.8.30=pyhd8ed1ab_0
+  - intel-openmp=2023.1.0=ha357a0b_43548
+  - joblib=1.3.2=pyhd8ed1ab_0
+  - libblas=3.8.0=14_mkl
+  - libcblas=3.8.0=14_mkl
+  - libcxx=19.1.7=haebbb44_3
+  - libffi=3.4.4=hecd8cb5_1
+  - libgfortran=3.0.1=h93005f0_2
+  - liblapack=3.8.0=14_mkl
+  - llvm-openmp=19.1.7=ha54dae1_1
+  - mkl=2019.4=233
+  - mkl-service=2.3.0=py37h9ed2024_0
+  - mkl_fft=1.3.0=py37ha059aab_0
+  - mkl_random=1.1.1=py37h959d312_0
+  - ncurses=6.5=h923df54_0
+  - numpy=1.18.1=py37h7241aed_0
+  - numpy-base=1.18.1=py37h3304bdc_1
+  - openssl=1.1.1w=hca72f7f_0
+  - pip=22.3.1=py37hecd8cb5_0
+  - python=3.7.16=h218abb5_0
+  - readline=8.3=h49f2429_0
+  - scikit-learn=1.0.2=py37hae1ba45_1
+  - scipy=1.3.1=py37hab3da7d_2
+  - setuptools=65.6.3=py37hecd8cb5_0
+  - six=1.16.0=pyhd3eb1b0_1
+  - sqlite=3.50.2=hc8b0dd6_1
+  - threadpoolctl=3.1.0=pyh8a188c0_0
+  - tk=8.6.15=h3a5a201_0
+  - tqdm=4.32.1=py_0
+  - wheel=0.38.4=py37hecd8cb5_0
+  - xz=5.6.4=h46256e1_1
+  - zlib=1.2.13=h4b97444_1
+  - pip:
+      - jieba==0.42.1
+      - torch==1.2.0
+prefix: /Users/chenbaiyan/miniconda3/envs/dcanet-env
