@@ -24,11 +24,19 @@ Our code is based on ~PyTorch 1.2~ It can run in PyTorch 1.13.1 right now! (by b
 -   numpy==1.18.1
 -   tqdm==4.32.1
 -   ~torch==1.2.0~ (torch==1.13.1)
+-   (Optional) cuda==12.3
 
 We highly suggest you using [Anaconda](https://www.anaconda.com/) to manage your python environment.
 
 ## How to run training:
-1) python main_joint.py
+1) Setting env
+```
+conda env create -f environment.yml
+```
+2) Run `main_joint.py`
+```
+python main_joint.py
+``` 
 
 ## Change dataset:
 1) Modify data_path in config.py
