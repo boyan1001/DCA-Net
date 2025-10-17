@@ -19,11 +19,11 @@ In the following, we will guide you how to use this repository step by step.
 
 ## Preparation
 
-Our code is based on PyTorch 1.2. Required python packages:
+Our code is based on ~PyTorch 1.2~ It can run in PyTorch 1.13.1 right now! (by boyan1001). Required python packages:
 
 -   numpy==1.18.1
 -   tqdm==4.32.1
--   torch==1.2.0
+-   ~torch==1.2.0~ (torch==1.13.1)
 
 We highly suggest you using [Anaconda](https://www.anaconda.com/) to manage your python environment.
 
